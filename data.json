@@ -1,0 +1,80 @@
+{
+    "question": [
+      "Q1. Which of the following is not true about the exception handling section of a PL/SQL block?",
+      "Q2. Which of the following code will open a cursor named cur_employee?",
+      "Q3. Which operator is used to compare a value to a specified list of values?",
+      "Q4. Select invalid variable types",
+      "Q5. Which of the following is used to declare a record?",
+      "Q6. Identify correct syntax to declare a variable",
+      "Q7. Identify correct syntax to assign a value to a variable?",
+      "Q8. What clause must be added to a SELECT statement to store the fetch result in a variable in a PL/SQL block? ",
+      "Q9. A block can be labelled using which symbol from the following?",
+      "Q10. How default value can be assigned to a variable?"
+    ],
+    "answer": [
+      2,
+      1,
+      4,
+      1,
+      1,
+      1,
+      3,
+      1,
+      1,
+      2
+    ],
+    "options": [
+  
+      ["This section starts with the EXCEPTION keyword.",
+        "It is a mandatory section.",
+        "It contains exception(s) that handle errors in the program.",
+        "None of the above."
+      ],
+      ["OPEN cur_employee;",
+       "OPEN CURSOR cur_employee;",
+        "FETCH cur_employee;",
+       "FETCH CURSOR cur_employee;"
+      ],
+      ["ANY",
+       "BETWEEN",
+       "ALL",
+       "IN"
+      ],
+      ["VARCHAR1",
+        "correct",
+        "VARCHAR2",
+        "INTEGER"
+      ],
+      ["%ROWTYPE",
+        "%TYPE",
+        " Both A & B",
+        "None of the above"
+      ],
+      ["variable_name [CONSTANT] datatype [NOT NULL] [:= | DEFAULT initial_value]",
+        "variable_name datatype [NOT NULL] [= | DEFAULT initial_value]",
+        "variable_name [CONSTANT] datatype [NOT NULL] [= | DEFAULT initial_value]",
+        "variable_name [CONSTANT] datatype [NOT NULL] | DEFAULT initial_value]"
+      ],
+      ["a int=10;",
+        "int a =10;",
+        "a int:=10;",
+        "int a 10;"
+      ],
+      ["INTO",
+        "WHERE",
+        "TO",
+        "VARIABLE"
+      ],
+      ["<<>>",
+        "/* */",
+        "--",
+        ":="
+      ],
+      ["msg varchar(20) default 10;",
+        "msg varchar(20) default :=10;",
+        "msg varchar(20) default =10;",
+        "msg default varchar(20) 10;"
+      ]
+
+    ]
+  }
